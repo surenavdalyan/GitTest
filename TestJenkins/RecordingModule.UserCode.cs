@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace TestJenkins
 {
-    public partial class Recording1
+    public partial class RecordingModule
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

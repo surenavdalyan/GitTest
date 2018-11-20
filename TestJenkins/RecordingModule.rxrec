@@ -5,7 +5,7 @@ id="875da5c2-e204-4518-a08d-a6e3a68e3fee"
 mode="Desktop"
 rxversion="7.2">
 	<name>
-		Recording1
+		RecordingModule
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="7.2">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
+	classname="RecordingModule"
 	namespace="TestJenkins">
 	</codegen>
 	<variables>
@@ -686,7 +686,7 @@ gAqCb/WD6UUUAOi+9+FS0UUAFFFFAEcvUfjTKKKAOG1H/kJXX/XZ/wCZpU+4v0oooAdXXWii60JI
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		RecordingModule.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

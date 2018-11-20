@@ -24,29 +24,29 @@ namespace TestJenkins
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The RecordingModule recording.
     /// </summary>
     [TestModule("875da5c2-e204-4518-a08d-a6e3a68e3fee", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    public partial class RecordingModule : ITestModule
     {
         /// <summary>
         /// Holds an instance of the TestJenkinsRepository repository.
         /// </summary>
         public static TestJenkinsRepository repo = TestJenkinsRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static RecordingModule instance = new RecordingModule();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public RecordingModule()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static RecordingModule Instance
         {
             get { return instance; }
         }

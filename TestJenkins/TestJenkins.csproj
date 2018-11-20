@@ -73,15 +73,15 @@
     <Compile Include="Program.cs">
       <id>69380c52-4948-47ce-ad93-508972586c34</id>
     </Compile>
-    <Compile Include="Recording1.cs">
+    <Compile Include="RecordingModule.cs">
       <BoundTo>cec71314-4092-4443-b90f-8c842e7b7cf4</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>RecordingModule.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>636bb4bc-6a8e-4531-accf-7cedba3120d0</id>
     </Compile>
-    <Compile Include="Recording1.UserCode.cs">
+    <Compile Include="RecordingModule.UserCode.cs">
       <BoundTo>cec71314-4092-4443-b90f-8c842e7b7cf4</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>RecordingModule.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>792d4d57-0e95-47ec-8d55-236be35d0150</id>
     </Compile>
@@ -96,7 +96,7 @@
     <None Include="app.config">
       <id>946a89d2-c6e3-4c17-8c8f-2ae667838af7</id>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="RecordingModule.rxrec">
       <BoundTo>685936d5-7188-466b-a6e0-6fffcb7a2abf</BoundTo>
       <id>cec71314-4092-4443-b90f-8c842e7b7cf4</id>
       <recordtableid>875da5c2-e204-4518-a08d-a6e3a68e3fee</recordtableid>
