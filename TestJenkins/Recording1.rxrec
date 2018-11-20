@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="875da5c2-e204-4518-a08d-a6e3a68e3fee"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="TestJenkins">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Program Files\Optym\SkySuite\PreQA\Sky.Suite.exe
+			</filename>
+			<workingdir>
+				C:\Program Files\Optym\SkySuite\PreQA
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		duration="8000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="18;18"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bbfdeecf-0671-457f-ae9c-6669cf34b5c8"
+		sx="1880"
+		sy="18"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6793eac6-2e19-487b-9d6b-656da4c39e2e"
+			sourcename="Recorder">
+				<element
+				capabilities="wpfelement, wpfgroupelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="7"
+				prefcap="button"
+				rect="1862,0,50,33"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						PART_CloseButton
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Button
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton&gt;
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						PART_CloseButton
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						DepoGroup&lt;RadButton&gt;
+					</attribute>
+					<attribute
+					name="ranorex_v7p2p0+gitpffdcf8e6_groupleaderid"
+					type="System.Guid">
+						f28ef8d9-29f2-4a58-b38c-f3f3cec53d20
+					</attribute>
+					<attribute
+					name="ranorex_v7p2p0+gitpffdcf8e6_groupmemberids"
+					type="System.Guid[]">
+						AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAABQAAAAMLU3lzdGVtLkd1aWQE/v///wtTeXN0ZW0u
+R3VpZAsAAAACX2ECX2ICX2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwIC
+AgICAgIC2fiO8vIpWEqzjPPzzsU9IAH9/////v///wg8oXEZa8dJqPmiTGC1m40B/P////7////A
+2MAUmBIUS4qm7fkCA9/EAfv////+////ua/VnpfkdEGevmqb7DMJXQH6/////v///2am5bh6+IxJ
+tze90J40WVcL
+					</attribute>
+					<attribute
+					name="ranorex_v7p2p0+gitpffdcf8e6_groupobjectid"
+					type="System.Guid">
+						8ace3fa8-18a6-4b05-ab15-870c5b6ca40c
+					</attribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.BorderBrush property of type Brush."
+					name="BorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.BorderColor property of type String."
+					name="BorderColor"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.caption property of type Object."
+					name="caption"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ClickMode property of type ClickMode."
+					name="ClickMode"
+					readonly="False"
+					type="System.Windows.Controls.ClickMode, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Column property of type Int32."
+					name="Column"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ColumnSpan property of type Int32."
+					name="ColumnSpan"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.CommandParameter property of type Object."
+					name="CommandParameter"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Content property of type Object."
+					name="Content"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ContentStringFormat property of type String."
+					name="ContentStringFormat"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.DefaultStyleKey property of type Object."
+					name="DefaultStyleKey"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.FontSize property of type Double."
+					name="FontSize"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Foreground property of type Brush."
+					name="Foreground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ForegroundColor property of type String."
+					name="ForegroundColor"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.HasContent property of type Boolean."
+					name="HasContent"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.HorizontalContentAlignment property of type HorizontalAlignment."
+					name="HorizontalContentAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.HoverDelay property of type TimeSpan."
+					name="HoverDelay"
+					readonly="False"
+					type="System.TimeSpan">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsBackgroundVisible property of type Boolean."
+					name="IsBackgroundVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsCancel property of type Boolean."
+					name="IsCancel"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsDefault property of type Boolean."
+					name="IsDefault"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsDefaulted property of type Boolean."
+					name="IsDefaulted"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsItemsHost property of type Boolean."
+					name="IsItemsHost"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsPressed property of type Boolean."
+					name="IsPressed"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsSharedSizeScope property of type Boolean."
+					name="IsSharedSizeScope"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.IsTabStop property of type Boolean."
+					name="IsTabStop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Row property of type Int32."
+					name="Row"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.RowSpan property of type Int32."
+					name="RowSpan"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ShowGridLines property of type Boolean."
+					name="ShowGridLines"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Stroke property of type Brush."
+					name="Stroke"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeDashCap property of type PenLineCap."
+					name="StrokeDashCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeDashOffset property of type Double."
+					name="StrokeDashOffset"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeEndLineCap property of type PenLineCap."
+					name="StrokeEndLineCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeLineJoin property of type PenLineJoin."
+					name="StrokeLineJoin"
+					type="System.Windows.Media.PenLineJoin, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeMiterLimit property of type Double."
+					name="StrokeMiterLimit"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeStartLineCap property of type PenLineCap."
+					name="StrokeStartLineCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.StrokeThickness property of type Double."
+					name="StrokeThickness"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.TabIndex property of type Int32."
+					name="TabIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.VerticalContentAlignment property of type VerticalAlignment."
+					name="VerticalContentAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.ZIndex property of type Int32."
+					name="ZIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF Ranorex.Plugin.Wpf.DepoGroup&lt;Telerik.Windows.Controls.RadButton>.OnApplyTemplate method."
+					displayName="OnApplyTemplate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@processname='Sky.Suite']/?/?/grip[@automationid='titleThumb']/button[@automationid='PART_CloseButton']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e112bfec-7cc6-4149-98c9-e09532692c28">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="de499b2e-0581-459a-9b64-7d2a9cb41cd8"
+	name="TestJenkinsRepository"
+	relativepath="TestJenkinsRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="TestJenkinsRepository"
+		namespace="TestJenkins">
+		</codegen>
+		<rootfolder
+		id="de9b591f-9f8d-4692-8639-7b731333931e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

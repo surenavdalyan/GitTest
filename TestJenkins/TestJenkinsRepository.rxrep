@@ -1,0 +1,57 @@
+﻿<repository
+id="de499b2e-0581-459a-9b64-7d2a9cb41cd8"
+name="TestJenkinsRepository"
+rxversion="7.2">
+	<codegen
+	classname="TestJenkinsRepository"
+	namespace="TestJenkins">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="de9b591f-9f8d-4692-8639-7b731333931e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="a50d331b-a6c9-4b9a-913d-2fb292344b15"
+		isrooted="True"
+		name="SkySuite"
+		refpath="/form[@processname='Sky.Suite']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="6793eac6-2e19-487b-9d6b-656da4c39e2e"
+			name="PARTCloseButton"
+			refimgid="44a1066f-4e8d-4bfc-91ba-0e59c3c0b636"
+			refpath="/form[@processname='Sky.Suite']/container/grip/button[@automationid='PART_CloseButton']"
+			searchtimeout="30000ms">
+				/form[@processname='Sky.Suite']/?/?/grip[@automationid='titleThumb']/button[@automationid='PART_CloseButton']
+			</item>
+			<basepath>
+				/form[@processname='Sky.Suite']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH3SURBVDhPYxhaYOaZ/6yVG1+IFxx8JQliQ4UJ
+g/r//5nStz6wztn2ZFHetie3gfhu9vbHc7O2P9SGKsENPCb+Y4/e8DA/bsOjVwkbH31P2PDoWNLG
+hxcSNz3+H7fu0WmoMgYGxzX35L3W3E32WH0/yX35Q38gtnVafVfPd/X9Br81D74HrL13NWTto8Dw
+5fcVfFY+XAsU+xew+v5GBpstDwUtVt5Ntllx75L9int/oPiv3Yp7P4H4I4jvsPLBSc/1j3RBaq2W
+3l8EkgfipfZbXkowmC2/t8l82f3fFsvv/zdbdueB+dJ7S82W3WuxWHG/23zZ3YXmS+8usAG6xH7+
+eQETEH/Zvb9mS+6stFz7XAzsdKDmySbL7l01W373PVDjHyD+YrLsQQxI7v///4wgDLLZdNm9eUC5
+v6ZL76/WWfZCHKwZBOzr/7OATDNf9dDYYsn9KPMV92psVj7QgkozgGwG2joHpBmI19qvuiIBlUIF
+PpuecpmvvmduuvyuGogNFWYwXXG/GKjxn8nyu+uNFl+ThApjAtMV99yBXvkIVPzOdNnd5XNDJmpd
+Eo9Iyinbkm666l6rxcpH0lCl2AHIaWZL71eZLr2z0XjVwym79XKLLsjF/T8nG10FVUIcAIUJMPRY
+TsvGKZ+Vja2+qBilC5UalICBAQDgwwy3lDvqMgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
